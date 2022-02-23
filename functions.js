@@ -46,13 +46,12 @@ console.log(calcAge3(13));
 const calcAge4 = birthYear => new Date().getFullYear() - birthYear;
 console.log(calcAge4(23));
 
-//Functios Years until retirement
-const yearsUntilRetire = birthYear => {
+//Function Years until retirement example
+const yearsUntilRetire = (birthYear, firstName) => {
     const age = 2022 - birthYear;
     const retirement = 68 - age;
-    return retirement;
+    return `${firstName} retires in ${retirement} years`;
 }
-
-console.log(yearsUntilRetire(1968));
+console.log(yearsUntilRetire(1970, 'Afonso'));
 
 
