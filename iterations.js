@@ -50,18 +50,4 @@ for (let i=0 ; i < personArray.length ; i++){
     console.log(personArray[i], typeof personArray[i]);
 }
 
-// Loops in loops
-console.log('--------------------------------');
-for (let i=personArray.length; i >=0; i--){
-    console.log(personArray[i], typeof personArray[i])
-}
-
-
-console.log('--------------------------------');
-for (let exr = 1; exr < 4; exr++) {
-    console.log(`Exercise ${exr} 🏋️‍♂️******`);
-    for (let rep = 1; rep < 4; rep++) {
-        console.log(`Exercise ${exr} rep ${rep} 🏋️`);
-    }
-}
 
